@@ -25,7 +25,7 @@
       background. The background is completely customizable.
       <span class="monospace small">(There's currently no link to it as it's not fucking done. It's still using temp images and colors ffs.)</span>
     </p>
-    <p class="no-margin small">
+    <p class="no-margin tiny">
       <span class="monospace">[HTML / CSS]</span>
       oh and i made this site
     </p>
