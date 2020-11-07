@@ -2,14 +2,21 @@ body {
   background-color: #333;
 }
 
-h1 {
+body>div>header {
+  display: none;
+}
+body>div>section {
+  float: initial;
+}
+
+
+h1, h2 {
   color: #fff;
-  font-size: 30px;
 }
 
 p {
   color: #ddd;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 a {
