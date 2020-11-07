@@ -15,8 +15,7 @@
     <br/>
     <br/>
     <br/>
-    <br/>
-    <a href="https://twitter.com/leafyluigi">This is a link to my Twitter.</a>
+    <p class="small">Socials: <a href="https://twitter.com/leafyluigi">Twitter</a></p>
 
   </body>
 </html>

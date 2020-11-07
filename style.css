@@ -5,9 +5,16 @@ body {
 body>div>header {
   display: none;
 }
+
 body>div>section {
   float: initial;
+  width: auto;
 }
+
+.wrapper {
+  width: auto;
+}
+
 body>div>footer>p>small {
   display: none;
 }
