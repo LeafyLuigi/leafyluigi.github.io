@@ -12,8 +12,11 @@ body>div>footer>p>small {
   display: none;
 }
 
-h1, h2 {
+h1 {
   color: #fff;
+}
+h2 {
+  color: #ccc;
 }
 
 p {
@@ -25,6 +28,7 @@ a {
   color: #0C3;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #3F6;
+  font-weight: normal;
 }

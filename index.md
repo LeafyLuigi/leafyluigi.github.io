@@ -5,7 +5,10 @@
   <body>
 
     <h1>Hello!</h1>
-    <p>This is my site, I guess.</p>
+    <h2>This is my site, I guess.</h2>
+
+    <br/>
+
     <a href="https://twitter.com/leafyluigi">This is a link to my Twitter.</a>
 
   </body>
