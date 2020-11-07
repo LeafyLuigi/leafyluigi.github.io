@@ -1,0 +1,21 @@
+body {
+  background-color: #333;
+}
+
+h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+p {
+  color: #ddd;
+  font-size: 10px;
+}
+
+a {
+  color: #0C3;
+}
+
+a:hover {
+  color: #3F6;
+}
