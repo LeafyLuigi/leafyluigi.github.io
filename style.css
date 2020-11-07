@@ -49,3 +49,7 @@ a.hidden, a.hidden:hover, a.hidden:focus {
   color: #ddd;
   cursor: default;
 }
+
+.no-margin {
+  margin: 0;
+}
