@@ -18,7 +18,12 @@ body>div>section {
 body>div>footer>p>small {
   display: none;
 }
-
+footer {
+  width: auto;
+}
+.small {
+  font-size: 14px;
+}
 h1 {
   color: #fff;
 }
