@@ -39,3 +39,8 @@ a:hover, a:focus {
   color: #3F6;
   font-weight: normal;
 }
+
+a.hidden, a.hidden:hover, a.hidden:focus {
+  color: #ddd;
+  cursor: default;
+}
