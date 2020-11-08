@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>LeafyLuigi's Site</title>
+    <title>LeafyLuigi's site</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -30,6 +30,13 @@
       <span class="monospace">[HTML / CSS]</span>
       oh and i made this site
     </p>
+    <p class="no-margin">
+      <span class="monospace">[CSS]</span>
+      I'm making a theme of sorts for Discord because the stock dark theme sucks ass and I want to have an
+      <a class="hidden" href="https://anilist.co/anime/20997/Charlotte/">anime</a>
+      background. The background is completely customizable.
+      <span class="monospace small">(There's currently no link to it as it's not fucking done. It's still using temp images and colors ffs.)</span>
+    </p>
     <footer>
       <p class="small no-margin" >Other links:
         <a href="https://twitter.com/leafyluigi">Twitter</a>
@@ -37,6 +44,8 @@
         <a href="https://github.com/leafyluigi">GitHub</a>
         |
         <a href="https://anilist.co/user/LeafyLuigi/">AniList</a>
+        |
+        <a href="/crayons.html">Crayons</a>
       </p>
     </footer>
 
