@@ -26,16 +26,16 @@
       background. The background is completely customizable.
       <span class="monospace small">(There's currently no link to it as it's not fucking done. It's still using temp images and colors ffs.)</span>
     </p>
-    <p class="no-margin tiny">
-      <span class="monospace">[HTML / CSS]</span>
-      oh and i made this site
-    </p>
     <p class="no-margin">
       <span class="monospace">[CSS]</span>
       I'm making a theme of sorts for Discord because the stock dark theme sucks ass and I want to have an
       <a class="hidden" href="https://anilist.co/anime/20997/Charlotte/">anime</a>
       background. The background is completely customizable.
       <span class="monospace small">(There's currently no link to it as it's not fucking done. It's still using temp images and colors ffs.)</span>
+    </p>
+    <p class="no-margin tiny">
+      <span class="monospace">[HTML / CSS]</span>
+      oh and i made this site
     </p>
     <footer>
       <p class="small no-margin" >Other links:
