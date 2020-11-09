@@ -31,6 +31,10 @@ body>div>footer>p>small {
   font-family: monospace;
 }
 
+.italic {
+  font-style: italic;
+}
+
 h1 {
   color: #fff;
 }

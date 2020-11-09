@@ -30,6 +30,15 @@
       <span class="monospace">[HTML / CSS]</span>
       oh and i made this site
     </p>
+    <br/>
+    <br/>
+    <p class="monospace">Historical: </p>
+    <p class="no-margin">
+      <span class="monospace">[CASIO BASIC]</span>.
+      A mod to a minesweeper game/program for the
+      <span class="italic">Casio ClassPad</span>.
+      It was never made public and the source code will likely forever work on my old ClassPad, if I can find it. I can no longer find the link to the original program unfortunately.
+    </p>
     <footer>
       <p class="small no-margin" >Other links:
         <a href="https://twitter.com/leafyluigi">Twitter</a>
