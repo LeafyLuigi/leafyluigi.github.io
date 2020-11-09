@@ -13,7 +13,7 @@
     <p class="no-margin">
       <span class="monospace">[XML / Haxe / HScript]</span>
       I made a mod called "LeafTech" for a game called
-      <a href="https://store.steampowered.com/app/876650/">Aground</a>.
+      <a class="italic" href="https://store.steampowered.com/app/876650/">Aground</a>.
       You can find it <a href="https://aground.mod.io/leaftech">here</a>
       or
       <a href="https://discord.gg/tX2ZxaUYDH">here</a>
