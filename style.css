@@ -10,12 +10,7 @@ body>div>section {
   float: initial;
   width: auto;
 }
-.items-center{
-  align-items: center;
-}
-.text-center{
-  text-align: center;
-}
+
 .wrapper, footer {
   width: auto;
 }
