@@ -21,7 +21,7 @@
     </p>
     <p class="no-margin">
       <span class="monospace">[CSS]</span>
-      I'm making a theme of sorts for Discord because the stock dark theme sucks ass and I want to have an
+      I'm making a theme of sorts for Discord (named "Pyrite") because the stock dark theme sucks ass and I want to have an
       <a class="hidden" href="https://anilist.co/anime/20997/Charlotte/">anime</a>
       background. The background is completely customizable. You can fild a link for the support server <a href="https://discord.gg/W976FZS">here</a>. Do note that it's still in development and is using temporary images/colors.
     </p>
