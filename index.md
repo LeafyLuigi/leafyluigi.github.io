@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>LeafyLuigi's site</title>
+    <title>???</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -47,6 +47,8 @@
         <a href="https://anilist.co/user/LeafyLuigi/">AniList</a>
         |
         <a href="/crayons.html">Crayons</a>
+        |
+        <a href="/photos.html">Photo Licence</a>
       </p>
     </footer>
 
