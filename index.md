@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
     <h1 class="no-margin">Hello!</h1>
     <h2>This is my site, I guess.</h2>
     <br/>
@@ -14,7 +13,9 @@
       <span class="monospace">[CSS]</span>
       I'm making a theme of sorts for Discord (named "Pyrite") because the stock dark theme sucks ass and I want to have an
       <a class="hidden" href="https://anilist.co/anime/20997/Charlotte/">anime</a>
-      background. The background is completely customizable. You can fild a link for the support server <a href="https://discord.gg/W976FZS">here</a>. Do note that it's still in development and is using temporary images/colors.
+      background. The background is completely customizable. You can fild a link for the support server <a href="https://discord.gg/W976FZS">here</a>. Image license usage can be found on the repo
+      <a href="https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite">here</a>
+      .
     </p>
     <p class="no-margin tiny">
       <span class="monospace">[HTML / CSS]</span>
@@ -22,7 +23,7 @@
     </p>
     <br/>
     <br/>
-    <p class="monospace">Historical: </p>
+    <p class="monospace">Historical:</p>
       <p class="no-margin">
       <span class="monospace">[XML / Haxe / HScript]</span>
       I made a mod called "LeafTech" for a game called
@@ -51,6 +52,5 @@
         <a href="/photos.html">Photo Licence</a>
       </p>
     </footer>
-
   </body>
 </html>
