@@ -13,7 +13,7 @@
       <span class="monospace">[CSS]</span>
       I'm making a theme of sorts for Discord (named "Pyrite") because the stock dark theme sucks ass and I want to have an
       <a class="hidden" href="https://anilist.co/anime/20997/Charlotte/">anime</a>
-      background. The background is completely customizable. You can fild a link for the support server <a href="https://discord.gg/W976FZS">here</a>. Image license usage can be found on the repo
+      background. The background is completely customizable. You can find a link for the support server somewhere on the repo. Image license usage can be found on the repo
       <a href="https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite">here</a>
       .
     </p>
@@ -28,10 +28,7 @@
       <span class="monospace">[XML / Haxe / HScript]</span>
       I made a mod called "LeafTech" for a game called
       <a class="italic" href="https://store.steampowered.com/app/876650/">Aground</a>.
-      You can find it <a href="https://aground.mod.io/leaftech">here</a>
-      or the old server that's now used for shitposts
-      <a href="https://discord.gg/tX2ZxaUYDH">here</a>
-      .
+      You can find it <a href="https://aground.mod.io/leaftech">here</a> should it be public.
     </p>
     <p class="no-margin">
       <span class="monospace">[CASIO BASIC]</span>.
