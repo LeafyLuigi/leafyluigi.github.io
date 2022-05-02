@@ -42,6 +42,8 @@
         |
         <a href="https://github.com/leafyluigi">GitHub</a>
         |
+        <a href="https://steamcommunity.com/id/LeafyLuigi">Steam</a>
+        |
         <a href="https://anilist.co/user/LeafyLuigi/">AniList</a>
         |
         <a href="/crayons.html">Crayons</a>
