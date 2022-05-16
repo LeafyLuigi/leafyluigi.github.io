@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>???</title>
@@ -17,9 +18,11 @@
       <a href="https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite">here</a>
       .
     </p>
-    <p class="no-margin tiny">
-      <span class="monospace">[HTML / CSS]</span>
-      oh and i made this site
+    <p class="no-margin">
+      <span class="monospace">[HTML/CSS/JS]</span>
+      I've also written up a list of variables used in the theme above explaining a few things. Javascript is barely used but somehow it worked. You can see it
+      <a href="https://leafyluigi.github.io/discord-themes/pyrite/var-examples.html">here</a>
+      .
     </p>
     <br/>
     <br/>
