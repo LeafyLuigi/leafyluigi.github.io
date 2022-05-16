@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>???</title>
@@ -19,7 +18,7 @@
       .
     </p>
     <p class="no-margin">
-      <span class="monospace">[HTML/CSS/JS]</span>
+      <span class="monospace">[HTML / CSS / JS]</span>
       I've also written up a list of variables used in the theme above explaining a few things. Javascript is barely used but somehow it worked. You can see it
       <a href="https://leafyluigi.github.io/discord-themes/pyrite/var-examples.html">here</a>
       .
