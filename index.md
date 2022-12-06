@@ -40,6 +40,10 @@
     </p>
     <footer>
       <p class="small no-margin" >Other links:
+        <a href="https://mastodon.au/@leaf" title="@leaf@mastodon.au">"Fediverse"</a>
+        |
+        <a href="https://pixelfed.social/LeafyLuigi" title="@leafyluigi@pixelfed.social">Photos (Private)</a>
+        |
         <a href="https://twitter.com/leafyluigi">Twitter</a>
         |
         <a href="https://github.com/leafyluigi">GitHub</a>
@@ -47,10 +51,6 @@
         <a href="https://steamcommunity.com/id/LeafyLuigi">Steam</a>
         |
         <a href="https://anilist.co/user/LeafyLuigi/">AniList</a>
-        |
-        <a href="/crayons.html">Crayons</a>
-        |
-        <a href="/photos.html">Photo Licence</a>
       </p>
     </footer>
   </body>
