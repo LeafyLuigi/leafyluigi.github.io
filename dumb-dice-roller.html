@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dumb Dice Roller</title>
+        <style>
+            #fakeCookie {
+                z-index: 1000;
+                background-color: rgba(255,255,255,0.5);
+                position:absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .red {color: red;}
+            #fakeCookie>div {
+                background-color: white;
+                border-radius: 30px;
+                padding: 20px;
+            }
+            h3,h4,h5 {margin: 0;}
+            .output {display:flex;flex-wrap: nowrap;align-self: center; justify-self: center;}
+            #output {margin: 4px; display: grid;}
+            #history {
+                display: flex;
+                flex-flow: column-reverse nowrap;
+            }
+            .headers {
+                display: flex;
+                flex: 1 1 auto;
+                order: 1;
+            }
+            .headers>span {
+                font-weight: bold;
+                flex: 0 0 auto;
+                width: 33%;
+            }
+            .historyOutput {
+                display: flex;
+            }
+            .historyOutput>span {
+                flex: 0 0 auto;
+                width: 33%;
+            }
+            .dice {
+                border: 1px solid black;
+                height: 3em;
+                width: 3em;
+                font-size: 2em;
+                font-weight: bold;
+                border-radius: 4px;
+                display: grid;
+                margin-right: 4px;
+            }
+            .dice:last-child {margin: 0;}
+            .dice>span {
+                justify-self: center;
+                align-self: center;
+            }
+            .dice::before {position:relative;top:2px;left:2px;font-style: italic;font-size: .5em;}
+            .dice4::before{content: "d4"}
+            .dice6::before{content: "d6"}
+            .dice8::before{content: "d8"}
+            .dice10::before{content: "d10"}
+            .dice12::before{content: "d12"}
+            .dice20::before{content: "d20"}
+            .dice100::before{content: "d100"}
+        </style>
+    </head>
+    <body>
+        <div id="fakeCookie">
+            <!-- i needed a container... -->
+            <div>
+                <h1>This site <span class="red">DOESN'T</span> use cookies!</h1>
+                <button onclick="hideCookie()">Got it, don't show again</button>
+            </div>
+        </div>
+        <div class="quickDice">
+            <button onClick="throwDice(2,20)">2d20</button>
+            <button onClick="throwDice(2,20)">2d20</button>
+            <button onClick="throwDice(2,20)">2d20</button>
+        </div>
+
+        <div class="controlsContainer">
+            <h3>Controls</h3>
+            <h4>The current dice setup is <span id="countTxt">count</span>d<span id="sideTxt">side</span>.</h4>
+            <h5><i>Default 1d20, max 20 throws.</i></h5>
+            <input min="1" value="1" max="20" id="count" type="number"><span>d</span><input id="side" pattern="(4|6|8|10|12|20|100)" title="one of 4, 6, 8, 10, 12, 20 or 100" value="20"><button onClick="sendInput()">Throw!</button>
+        </div>
+        <div id="outputHeader"></div>
+        <div id="output"></div>
+        <div id="history"></div>
+    <!-- i hope she made lotsa spaghetti -->
+
+    <script>
+        // remove fake cookie banner
+        function hideCookie(){document.querySelector("#fakeCookie").style.cssText = "display:none!important"}
+        
+        // set defaults
+        var count = 1;
+        var side = 20;
+        const historyHtmlTop = "<div class=\"headers\"><span>Rolled</span><span>Outputs</span><span>Total</span></div>";
+        var historyStr = "";
+        const historyHtmlBtm = "</table>";
+
+        function sendInput() {
+            count = document.querySelector("#count").value;
+            side = document.querySelector("#side").value;
+            throwDice(count, side);
+        }
+
+        function throwDice(count, side) {
+            let array = [];
+            let outputTotal = 0;
+            let outputTable = "<div class=\"output\">";
+            historyStr += "<div class=\"historyOutput\"><span>"+count+"d"+side+"</span><span>";
+            // where min = 1 and max = side
+            for (let i = 0; i < count; i++) {
+                output = Math.floor(Math.random() * side) + 1;
+                array[i] = output;
+                historyStr += output+", ";
+                outputTotal += output;
+            }
+            historyStr = historyStr.slice(0,historyStr.length - 2);
+            historyStr += "</span><span>"+outputTotal+"</span></div>";
+            for (let i = 0; i < array.length; i++) {
+                outputTable += "<div class=\"dice dice"+side+"\"><span>"+array[i]+"</span></div>";
+            }
+            outputTable += "</div>";
+            document.querySelector("#outputHeader").innerHTML = "<h4>You rolled a total of "+outputTotal+"</h4>";
+            document.querySelector("#output").innerHTML = outputTable;
+            document.querySelector("#history").innerHTML = historyHtmlTop + historyStr + historyHtmlBtm;
+        }
+    </script></body>
+</html>
