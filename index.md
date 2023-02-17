@@ -40,9 +40,7 @@
     </p>
     <footer>
       <p class="small no-margin" >Other links:
-        <a href="https://mastodon.au/@leaf" title="@leaf@mastodon.au">"Fediverse"</a>
-        |
-        <a href="https://pixelfed.social/LeafyLuigi" title="@leafyluigi@pixelfed.social">Photos (Private)</a>
+        <a href="https://s.awoo.dev/@leaf" title="@leaf@s.awoo.dev">"Fediverse"</a>
         |
         <a href="https://twitter.com/leafyluigi">Twitter</a>
         |

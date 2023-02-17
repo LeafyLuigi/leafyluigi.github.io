@@ -1,9 +1,9 @@
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   white-space: pre;
-  display: none;
+  display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'a';
+  content: 'If you\'re using this, please remove the following @import as it should no longer be used:\00000a@import(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css)';
 }
