@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>???</title>
+    <title>Leaf does stuff.</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -10,6 +10,12 @@
     <p>Here's the sort of stuff I've been doing recently:</p>
     <br/>
     <p class="no-margin">
+      <span class="monospace">[HTML / CSS / JS]</span>
+      I've made a Resource Calculator of sorts for Genshin Impact because I have far too much free time and don't really do anything but play it.
+      <a href="https://leafyluigi.github.io/GenshinCalc">Link</a>
+      .
+    </p>
+    <p class="no-margin">
       <span class="monospace">[CSS]</span>
       I'm making a theme of sorts for Discord (named "Pyrite") because the stock dark theme sucks ass and I want to have an
       <a class="hidden" href="https://anilist.co/anime/20997/Charlotte/">anime</a>
@@ -17,7 +23,11 @@
       <a href="https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite">here</a>
       .
     </p>
-    <p class="no-margin">
+    <p class="no-margin small">
+      <span class="monospace">[Python]</span>
+      I've attempted to make something that gets, sorts and deals with Discord's classes but there currently isn't anything to show about it.
+    </p>
+    <p class="no-margin small">
       <span class="monospace">[HTML / CSS / JS]</span>
       I've also written up a list of variables used in the theme above explaining a few things. Javascript is barely used but somehow it worked. You can see it
       <a href="https://leafyluigi.github.io/discord-themes/pyrite/var-examples.html">here</a>
@@ -41,8 +51,6 @@
     <footer>
       <p class="small no-margin" >Other links:
         <a href="https://s.awoo.dev/@leaf" title="@leaf@s.awoo.dev">"Fediverse"</a>
-        |
-        <a href="https://twitter.com/leafyluigi">Twitter</a>
         |
         <a href="https://github.com/leafyluigi">GitHub</a>
         |
