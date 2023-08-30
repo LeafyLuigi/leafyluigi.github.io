@@ -5,5 +5,11 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'If you\'re using this, please remove the following @import as it should no longer be used:\00000a@import(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css)';
+  color: #fff;
+  background-color: #000;
+  content: 'If you\'re using this, please remove the following @import as it should no longer be used:\00000a@import(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css)\00000aYou can do so by going to the theme file (open settings > themes > open theme folder) and removing the line containing the link above.';
+}
+.theme-light body::before {
+  color: #000;
+  background-color: #fff;
 }
