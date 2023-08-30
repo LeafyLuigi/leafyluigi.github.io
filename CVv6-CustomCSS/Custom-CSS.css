@@ -7,7 +7,7 @@ body::before {
   border-bottom: 2px solid black;
   color: #fff;
   background-color: #000;
-  content: 'If you\'re using this, please remove the following @import as it should no longer be used:\00000a@import(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css)\00000aYou can do so by going to the theme file (open settings > themes > open theme folder) and removing the line containing the link above.';
+  content: 'If you\'re using this, please remove the following @import as it should no longer be used:\00000a@import(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css)\00000aYou can do so by going to the theme file (Settings > Themes > Open Themes Folder) and removing the line containing the link above.\00000aYou can access settings via CTRL + Comma (,) or CMD + Comma (,) on Mac.';
 }
 .theme-light body::before {
   color: #000;
