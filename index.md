@@ -11,7 +11,7 @@
     <br/>
     <p class="no-margin">
       <span class="monospace">[HTML / CSS / JS]</span>
-      I've made a Resource Calculator of sorts for Genshin Impact because I have far too much free time and don't really do anything but play it.
+      I've made a Resource Calculator of sorts for Genshin Impact because I have far too much free time and don't really do anything but play it. It's been somewhat abandoned since the devs added their own calc into the game.
       <a href="https://leafyluigi.github.io/GenshinCalc">Link</a>
       .
     </p>
@@ -51,6 +51,8 @@
     <footer>
       <p class="small no-margin" >Other links:
         <a href="https://s.awoo.dev/@leaf" title="@leaf@s.awoo.dev">"Fediverse"</a>
+        |
+        <a href="https://bsky.app/profile/iamleaf.bsky.social" title="@iamleaf.bsky.social">Bluesky</a>
         |
         <a href="https://github.com/leafyluigi">GitHub</a>
         |
