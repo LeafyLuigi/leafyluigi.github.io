@@ -50,7 +50,8 @@
     </p>
     <footer>
       <p class="small no-margin" >Other links:
-        <a href="https://s.awoo.dev/@leaf" title="@leaf@s.awoo.dev">"Fediverse"</a>
+        Matrix: <pre>@iamleafy:matrix.org</pre>
+        <!-- <a href="https://s.awoo.dev/@leaf" title="@leaf@s.awoo.dev">"Fediverse"</a> -->
         |
         <a href="https://bsky.app/profile/iamleaf.bsky.social" title="@iamleaf.bsky.social">Bluesky</a>
         |
